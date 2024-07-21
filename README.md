@@ -20,10 +20,12 @@ The retrieved data consists of product information displayed on the e-commerce w
 - mulai dari scraping hingga dapet output.
 
 Tahap pertama dalam project ini yaitu melakukan web scraping untuk memperoleh data produk dari laman web. Hal ini dapat diawali dengan menentukan jenis web driver yang akan digunakan, yang mana pada project ini saya menggunakan Google Chrome sebagai drivernya. Dengan begitu kita dapat menginstal plugin driver yang kita pilih menggunakan library selenium seperti berikut: 
-`from selenium.webdriver.chrome.service import Service as ChromeService
+```
+from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))`
-
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+```
+Kemudian bukalah website e-commerce dan lakukan pencarian produk dengan memasukkan keyword produk dalam kolom pencarian. Lakukan inspect pada laman tersebut dan cari dengan teliti elemen yang mengandung informasi produk 
 
 
 
