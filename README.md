@@ -7,6 +7,7 @@ Web scraping is the automated process of extracting data from websites. It invol
 - [Explanation](#explanation)
 - [Installation](#installation)
 - [Results](#results)
+- [Dashboard](#dashboard)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -35,6 +36,10 @@ To run or get this project locally, please follow these steps:
 ## Results
 - Successfully obtained a compilation of data tables containing product information, including product name, store location, product rating, total product sales, and product price.
 - In market research conclusion, there is a great public interest in seblak products based on sales data on the e-commerce website. This can be seen from the large number of existing sales, both within the scope of Jabodetabek and outside Jabodetabek. From a business perspective, seblak products appear suitable as a trade commodity for the dropshipping business that being considered. There is a promising potential income margin, and the selling prices do not vary significantly between Jabodetabek and other regions, thus minimizing the risk of disrupting public interest in affordable products.
+
+## Dashboard
+I have created a dashboard to summarize the analysis and insights from this project. You can check it out at the following link:
+https://public.tableau.com/app/profile/teguh.sukmanaputra/viz/Hacktiv8WebScrapingProject-Teguh/Dashboard1?publish=yes 
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Let's collaborate and make this project even better!.
