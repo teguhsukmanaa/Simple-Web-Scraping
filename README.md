@@ -1,29 +1,31 @@
 # Simple Web Scraping on E-commerce Website
-intro
-- web scrap tuh apa
-- kelebihan, kegunaan, atau manfaatnya apa
-- kekurangan atau bahaya nya apa.
+Web scraping is the automated process of extracting data from websites. It involves using software to visit web pages, download their contents, and extract specific information. This data can then be saved locally for analysis or used in various applications. Web scraping is widely used for tasks such as market research, competitive analysis, content aggregation, and more. However, it requires careful attention to legal and ethical considerations, as scraping practices can vary in legality depending on how and what data is accessed from websites.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [explanation](#explanation)
+- [Explanation](#explanation)
 - [Installation](#installation)
 - [Results](#results)
 - [Contributing](#contributing)
 
 ## Introduction
-- penjelasan project nya mau ngapain
-- latarbelakang/alasan web scrap dari project ini serta goals yang ingin dicapai dari data hasil web scrap ini
-- output dari project ini apa.
+This project will demonstrate how to use a simple web scraping method to collect data from an e-commerce website. The data collected will be in the form of product information displayed on the e-commerce webpage when a keyword search is performed for the related product. The main objective of this project is to conduct market research on seblak products by utilizing web scraping to gather data. The results of this market research analysis will serve as a basis for decision-making, strategy formulation, or trend analysis in starting a seblak product dropshipping business. The output of this project will include a compilation of product data obtained through web scraping, data analysis results, and conclusions drawn from the conducted market research.
 
 ## Dataset
-- data yang mau diambil itu apa, dari web mana
-- apa aja features dari data yang berhasil diambil.
+The retrieved data consists of product information displayed on the e-commerce webpage following a keyword search for related products. This includes details such as product name, store location, product rating, total product sales, and product price. Approximately 380 rows of data were successfully scraped.
 
 ## Explanation
 - step by step atau langkah-langkah dalam mengerjakan project
 - mulai dari scraping hingga dapet output.
+
+Tahap pertama dalam project ini yaitu melakukan web scraping untuk memperoleh data produk dari laman web. Hal ini dapat diawali dengan menentukan jenis web driver yang akan digunakan, yang mana pada project ini saya menggunakan Google Chrome sebagai drivernya. Dengan begitu kita dapat menginstal plugin driver yang kita pilih menggunakan library selenium seperti berikut: 
+`from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))`
+
+
+
 
 ## Installation
 To run or get this project locally, please follow these steps:
