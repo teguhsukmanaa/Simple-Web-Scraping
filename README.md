@@ -33,6 +33,12 @@ To run or get this project locally, please follow these steps:
 1. Clone this repository: `git clone git@github.com:teguhsukmanaa/Simple-Data-Pipeline-For-App-Trend-Analysis.git`
 2. Or download the files manually.
 
+## File Information
+Here's a detail about the information:
+1. README.md = Repository description
+2. P0G3_teguh-sukmana.ipynb = Python script that contains the syntax to perform web scraping
+3. data_backup_webscraping.csv = Example of web scraping data result that saved into csv file
+
 ## Results
 - Successfully obtained a compilation of data tables containing product information, including product name, store location, product rating, total product sales, and product price.
 - In market research conclusion, there is a great public interest in seblak products based on sales data on the e-commerce website. This can be seen from the large number of existing sales, both within the scope of Jabodetabek and outside Jabodetabek. From a business perspective, seblak products appear suitable as a trade commodity for the dropshipping business that being considered. There is a promising potential income margin, and the selling prices do not vary significantly between Jabodetabek and other regions, thus minimizing the risk of disrupting public interest in affordable products.
