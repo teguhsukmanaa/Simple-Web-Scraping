@@ -35,7 +35,7 @@ To run or get this project locally, please follow these steps:
 2. Or download the files manually.
 
 ## File
-Here's a detail about the information:
+Here's a detail about the file in this repository:
 1. README.md = Repository description
 2. P0G3_teguh-sukmana.ipynb = Python script that contains the syntax to perform web scraping
 3. data_backup_webscraping.csv = Example of web scraping data result that saved into csv file
