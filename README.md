@@ -6,6 +6,7 @@ Web scraping is the automated process of extracting data from websites. It invol
 - [Dataset](#dataset)
 - [Explanation](#explanation)
 - [Installation](#installation)
+- [File](#file)
 - [Results](#results)
 - [Dashboard](#dashboard)
 - [Contributing](#contributing)
@@ -33,7 +34,7 @@ To run or get this project locally, please follow these steps:
 1. Clone this repository: `git clone git@github.com:teguhsukmanaa/Simple-Data-Pipeline-For-App-Trend-Analysis.git`
 2. Or download the files manually.
 
-## File Information
+## File
 Here's a detail about the information:
 1. README.md = Repository description
 2. P0G3_teguh-sukmana.ipynb = Python script that contains the syntax to perform web scraping
